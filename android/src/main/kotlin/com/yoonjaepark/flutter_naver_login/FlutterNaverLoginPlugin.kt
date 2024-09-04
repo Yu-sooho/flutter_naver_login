@@ -52,9 +52,9 @@ class FlutterNaverLoginPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
   /**
    * 네이버 개발자 등록한 client 정보를 넣어준다.
    */
-  // private var OAUTH_CLIENT_ID = "OAUTH_CLIENT_ID"
-  // private var OAUTH_CLIENT_SECRET = "OAUTH_CLIENT_SECRET"
-  // private var OAUTH_CLIENT_NAME = "OAUTH_CLIENT_NAME"
+  private var OAUTH_CLIENT_ID = "bGsZ6gZRYumkzT6R0zvp"
+  private var OAUTH_CLIENT_SECRET = "vuFyJtc85h"
+  private var OAUTH_CLIENT_NAME = "GymCalendar"
 
   private var channel: MethodChannel? = null
 
